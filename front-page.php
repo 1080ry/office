@@ -7,24 +7,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!--CSS-->
-<link href="http://smallville.tokyo/office/wp-content/themes/office/style.css" rel="stylesheet">
+<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
 <!--googlefont-->
 <link href='http://fonts.googleapis.com/css?family=Passion+One:700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:600italic' rel='stylesheet' type='text/css'>
 
 <!-- font awesome -->
-<link href="http://smallville.tokyo/office/wp-content/themes/office/css/font-awesome.min.css" rel="stylesheet" >
+<link href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css" rel="stylesheet" >
 
 <!-- favicon -->
-<link rel="shortcut icon" href="http://smallville.tokyo/office/wp-content/themes/office/favicon.ico">
+<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
 
 <!--[if lt IE 9]>
 <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<script src="http://smallville.tokyo/office/wp-content/themes/office/js/jquery.js"></script>
-<script src="http://smallville.tokyo/office/wp-content/themes/office/js/sns.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/sns.js"></script>
 
 </head>
 
@@ -80,7 +80,7 @@
   </div>
 </footer>
 </div><!--/wrapper-->
-<script src="#"></script><!--アナリティクス-->
-<script src="#"></script><!--js-->
+<script src="<?php bloginfo('template_url'); ?>/js/analytics.js"></script><!--アナリティクス-->
+<script src="<?php bloginfo('template_url'); ?>/js/office.js"></script><!--js-->
 </body>
 </html>
