@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>office</title>
+<!-- Basic Page Needs
+================================================== -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
 
-<!--CSS-->
-<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
+<title>office</title>
 
-<!--googlefont-->
+<!-- CSS
+================================================== -->
+<link href="<?php bloginfo('template_url'); ?>/css/home-style.css" rel="stylesheet">
+
+<!-- googlefont
+================================================== -->
 <link href='http://fonts.googleapis.com/css?family=Passion+One:700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:600italic' rel='stylesheet' type='text/css'>
 
-<!-- font awesome -->
+<!-- font awesome
+================================================== -->
 <link href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css" rel="stylesheet" >
 
-<!-- favicon -->
-<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
-
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<!--[if lt IE 8]>
+<script src="https://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script><![endif]-->
 <!--[if lt IE 9]>
 <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-<script src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/js/sns.js"></script>
-
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+<?php wp_head()?>
 </head>
 
 <body>
@@ -36,9 +39,11 @@
 <div class="wrapper">
 
 <header>
+  <div class="header-logo-box">
   <h1><a href="#">office</a></h1>
   <p>office説明</p>
-  <nav>
+  </div>
+  <nav class="globalnav">
     <ul>
       <li>TOP</li>
       <li>NEWS</li>
