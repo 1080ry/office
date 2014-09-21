@@ -39,19 +39,18 @@
 <div class="wrapper">
 
 <header>
-  <div class="header-logo-box">
-  <h1><a href="#">office</a></h1>
+  <div class="logo-box">
+  <h1 class="hide-text">office</h1>
   <p>office説明</p>
   </div>
   <nav class="globalnav">
     <ul>
-      <li>TOP</li>
-      <li>NEWS</li>
-      <li>SURVICE</li>
-      <li>CONTACT</li>
-      <li>BLOG</li>
+      <li><a href="#">TOP</a></li>
+      <li><a href="#">NEWS</a></li>
+      <li><a href="#">SURVICE</a></li>
+      <li><a href="#">CONTACT</a></li>
+      <li><a href="#">BLOG</a></li>
     </ul>
-
   </nav>
 </header>
 
