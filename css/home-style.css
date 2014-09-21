@@ -11,14 +11,17 @@ body{
 /*
 header ======================= */
 haeder {
-  height: 80px;
-  width: 100%;
-  margin: 0 auto;
   min-width: 1000px;
+  width: 95%;
+  height: 280px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header-logo-box {
+  width: 200px;
 }
 .globalnav {
   float: right;
-  margin-right: 50px;
 }
 .globalnav ul li {
   display: inline-block;
@@ -28,3 +31,13 @@ haeder {
   width: 150px;
   height:35px;
 }
+/*
+bilboad ======================= */
+.bilboad {
+  width: 100%;
+}
+.bilboad img {
+  width: 1000px;
+  margin: 0 auto;
+}
+
